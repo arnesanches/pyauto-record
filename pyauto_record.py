@@ -32,3 +32,12 @@ pyautogui.press("enter")  # Confirma o login
 
 # Aguarda o site processar o login
 time.sleep(3)
+
+# Importando a biblioteca para manipular dados em tabelas
+import pandas  # Utilizado para leitura de arquivos CSV e manipulação de tabelas
+
+# Lendo o arquivo CSV com os dados dos produtos
+tabela = pandas.read_csv("produtos.csv")  # Substitua pelo caminho correto do seu arquivo CSV
+
+# Exibindo os dados da tabela no console (apenas para verificação)
+print(tabela)
