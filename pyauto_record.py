@@ -78,4 +78,4 @@ for linha in tabela.index:
 
     pyautogui.hotkey("ctrl", "r")  # Reinicia a página
     pyautogui.press("tab")  # Navega para o início do formulário
-    time.sleep(2)  # Aguarda o carregamento
+    time.sleep(2.5)  # Aguarda o carregamento
