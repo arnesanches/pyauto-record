@@ -16,3 +16,19 @@ time.sleep(3)  # Pausa de 3 segundos para garantir que o navegador esteja pronto
 # Acessando a URL de login
 pyautogui.write("https://dlp.hashtagtreinamentos.com/python/intensivao/login")  # Digita o link de login
 pyautogui.press("enter")  # Pressiona "Enter" para acessar a URL
+
+# Espera o site carregar
+time.sleep(3)
+
+# Preenchendo o formulário de login
+pyautogui.press("tab")  # Navega para o campo de e-mail
+pyautogui.write("arnejr@uol.com")  # Digita o e-mail
+
+pyautogui.press("tab")  # Navega para o campo de senha
+pyautogui.write("123456789")  # Digita a senha
+
+pyautogui.press("tab")  # Navega para o botão de login
+pyautogui.press("enter")  # Confirma o login
+
+# Aguarda o site processar o login
+time.sleep(3)
