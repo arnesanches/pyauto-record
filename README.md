@@ -1,4 +1,6 @@
-PyAutoRecord é uma ferramenta de automação desenvolvida em Python para realizar o cadastro de produtos em um site fictício de forma automatizada. O site utilizado é apenas para fins educacionais e demonstração, permitindo visualizar ao final todos os produtos cadastrados durante a execução do script.
+PyAuto Record
+
+PyAuto Record é uma ferramenta de automação desenvolvida em Python para realizar o cadastro de produtos em um site fictício de forma automatizada. O site utilizado é apenas para fins educacionais e demonstração, permitindo visualizar ao final todos os produtos cadastrados durante a execução do script.
 
 A ferramenta utiliza a biblioteca PyAutoGUI para simular ações de teclado e mouse, preenchendo os campos do formulário com os dados extraídos de um arquivo CSV. Além disso, a biblioteca Pandas é empregada para manipulação e leitura dos dados contidos no arquivo.
 
