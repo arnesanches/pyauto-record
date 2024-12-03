@@ -4,7 +4,7 @@ PyAuto Record é uma ferramenta de automação desenvolvida em Python para reali
 
 A ferramenta utiliza a biblioteca PyAutoGUI para simular ações de teclado e mouse, preenchendo os campos do formulário com os dados extraídos de um arquivo CSV. Além disso, a biblioteca Pandas é empregada para manipulação e leitura dos dados contidos no arquivo.
 
-Para executar o PyAutoRecord, é necessário ter instalado o Python 3.8 ou superior e as bibliotecas PyAutoGUI e Pandas. O código foi testado no sistema operacional Windows, utilizando o navegador Google Chrome. Caso você utilize outro sistema operacional ou navegador, podem ser necessários ajustes nos tempos de espera ou na simulação de comandos para garantir o funcionamento correto.
+Para executar o PyAuto Record, é necessário ter instalado o Python 3.8 ou superior e as bibliotecas PyAutoGUI e Pandas. O código foi testado no sistema operacional Windows, utilizando o navegador Google Chrome. Caso você utilize outro sistema operacional ou navegador, podem ser necessários ajustes nos tempos de espera ou na simulação de comandos para garantir o funcionamento correto.
 
 O arquivo produtos.csv deve conter as informações dos produtos a serem cadastrados no site, seguindo o formato adequado, com colunas como código, marca, tipo, categoria, preço unitário, custo e observações. Certifique-se de que o arquivo está salvo no mesmo diretório do script.
 
