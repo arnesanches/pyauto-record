@@ -17,6 +17,7 @@ It is important to note that this project was created for educational purposes. 
 If you wish to adapt the code or customize its settings, feel free to explore and modify the parameters. You are welcome to contribute or share your feedback!
 
 
+
 PyAuto Record
 
 PyAuto Record é uma ferramenta de automação desenvolvida em Python para realizar o cadastro de produtos em um site fictício de forma automatizada. O site utilizado é apenas para fins educacionais e demonstração, permitindo visualizar ao final todos os produtos cadastrados durante a execução do script.
