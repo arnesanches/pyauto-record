@@ -16,7 +16,7 @@ It is important to note that this project was created for educational purposes. 
 
 If you wish to adapt the code or customize its settings, feel free to explore and modify the parameters. You are welcome to contribute or share your feedback!
 
-----
+---
 
 ### Português
 
