@@ -1,6 +1,6 @@
 ### English 
 
-# PyAutoRecord
+# PyAuto Record
 
 PyAutoRecord is an automation tool developed in Python to register products on a fictional website automatically. The website used is for educational and demonstration purposes, allowing you to view all the products registered during the execution of the script.
 
