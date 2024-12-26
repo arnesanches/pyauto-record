@@ -1,37 +1,111 @@
-### English 
+#### English 
 
 # PyAuto Record
 
-PyAutoRecord is an automation tool developed in Python to register products on a fictional website automatically. The website used is for educational and demonstration purposes, allowing you to view all the products registered during the execution of the script.
+PyAuto Record is an automation tool developed in Python to register products on a fictional website in an automated way. The website used is for educational and demonstration purposes only, allowing you to view all the products registered during the execution of the script.
 
-The tool uses the PyAutoGUI library to simulate keyboard and mouse actions, filling in the form fields with data extracted from a CSV file. Additionally, the Pandas library is used for data manipulation and reading the contents of the file.
+## Features
 
-To run PyAutoRecord, you need to have Python 3.8 or higher installed, along with the PyAutoGUI and Pandas libraries. The code has been tested on the Windows operating system, using the Google Chrome browser. If you're using another operating system or browser, you may need to adjust wait times or command simulations to ensure proper functionality.
+- **Automated Product Registration**: Automatically registers products on a fictional website.
+- **Simulated Keyboard and Mouse Actions**: Uses the PyAutoGUI library to fill out forms.
+- **Data Reading with Pandas**: Product data is extracted from a CSV file and automatically entered into the website.
+- **Data Visibility**: At the end of the execution, all the registered products can be viewed on the fictional website.
 
-The produtos.csv file should contain the product information to be registered on the website, following the appropriate format with columns like code, brand, type, category, unit price, cost, and notes. Make sure the file is saved in the same directory as the script.
+## Technologies Used
 
-During execution, the script logs into the fictional website, accesses the registration page, reads the data from the CSV, and automatically fills in the corresponding fields. At the end, you can view all the products theoretically registered on the site.
+- **Python**: The programming language used for the development of the tool.
+- **PyAutoGUI**: Library for simulating keyboard and mouse actions on the computer.
+- **Pandas**: Library for manipulating and reading data in CSV format.
+- **CSV**: The file format used to store product data.
 
-It is important to note that this project was created for educational purposes. It demonstrates the use of task automation in Python but should be used responsibly, ensuring that the website or application you're automating allows this type of interaction.
+## Execution Requirements
 
-If you wish to adapt the code or customize its settings, feel free to explore and modify the parameters. You are welcome to contribute or share your feedback!
+1. **Python 3.8 or higher**: Ensure you are using the appropriate version of Python.
+2. **Libraries**: Install the required libraries with the following command:
+   
+   `pip install pyautogui pandas`
+
+3. **Operating System**: The code has been tested on Windows. If you're using another operating system or browser, adjustments may be necessary.
+
+4. **CSV File**: The `produtos.csv` file must contain product information to be registered. This file needs to be in the same directory as the script.
+
+## How to Run
+
+1. **Setup**: 
+   - Ensure the `produtos.csv` file is correctly formatted and located in the correct folder.
+   
+2. **Run the Script**: 
+   - Execute the Python script (`pyauto_record.py`) in your local environment.
+   
+3. **Monitor**:
+   - The script logs into the fictional website and automatically fills in the form fields with the data from the CSV.
+
+4. **Results**:
+   - At the end of the execution, all the registered products can be viewed on the fictional website.
+
+## Important Notes
+
+- **Educational Purpose**: This project was created to demonstrate how to automate tasks with Python. It is not recommended for use on real websites without permission.
+- **Responsibility in Usage**: Make sure that the website or application you're automating allows such interaction.
+- **Adaptation**: You can adapt the code and customize parameters such as wait times and field coordinates if necessary.
+
+## Contribute or Share Feedback
+
+Feel free to explore, modify, and contribute to the code. If you find any bugs or have suggestions, share your feedback to improve the project.
 
 ---
 
-### Português
+#### Português
 
 # PyAuto Record
 
 PyAuto Record é uma ferramenta de automação desenvolvida em Python para realizar o cadastro de produtos em um site fictício de forma automatizada. O site utilizado é apenas para fins educacionais e demonstração, permitindo visualizar ao final todos os produtos cadastrados durante a execução do script.
 
-A ferramenta utiliza a biblioteca PyAutoGUI para simular ações de teclado e mouse, preenchendo os campos do formulário com os dados extraídos de um arquivo CSV. Além disso, a biblioteca Pandas é empregada para manipulação e leitura dos dados contidos no arquivo.
+## Funcionalidades
 
-Para executar o PyAuto Record, é necessário ter instalado o Python 3.8 ou superior e as bibliotecas PyAutoGUI e Pandas. O código foi testado no sistema operacional Windows, utilizando o navegador Google Chrome. Caso você utilize outro sistema operacional ou navegador, podem ser necessários ajustes nos tempos de espera ou na simulação de comandos para garantir o funcionamento correto.
+- **Automação de Cadastro de Produtos**: Registra produtos automaticamente em um site fictício.
+- **Simulação de Ações de Teclado e Mouse**: Utiliza a biblioteca PyAutoGUI para preencher formulários.
+- **Leitura de Dados com Pandas**: Os dados dos produtos são extraídos de um arquivo CSV e inseridos automaticamente no site.
+- **Visibilidade dos Dados**: Ao final da execução, todos os produtos cadastrados podem ser visualizados no site fictício.
 
-O arquivo produtos.csv deve conter as informações dos produtos a serem cadastrados no site, seguindo o formato adequado, com colunas como código, marca, tipo, categoria, preço unitário, custo e observações. Certifique-se de que o arquivo está salvo no mesmo diretório do script.
+## Tecnologias Utilizadas
 
-Durante a execução, o script realiza login no site fictício, acessa a página de cadastro, lê os dados do CSV e os insere automaticamente nos campos correspondentes. Ao final, é possível visualizar no site todos os produtos teoricamente cadastrados.
+- **Python**: Linguagem de programação utilizada para o desenvolvimento da ferramenta.
+- **PyAutoGUI**: Biblioteca para simular ações de teclado e mouse no computador.
+- **Pandas**: Biblioteca para manipulação e leitura de dados em formato CSV.
+- **CSV**: Formato de arquivo utilizado para armazenar os dados dos produtos.
 
-Vale ressaltar que este projeto foi criado com propósitos educacionais. Ele demonstra o uso de automação de tarefas em Python, mas deve ser utilizado com responsabilidade, garantindo que o site ou aplicação que você automatizar permita esse tipo de interação.
+## Requisitos para Execução
 
-Se você deseja adaptar o código ou personalizar suas configurações, fique à vontade para explorar e modificar os parâmetros. Sinta-se convidado a contribuir ou compartilhar seu feedback!
+1. **Python 3.8 ou superior**: Certifique-se de que está utilizando a versão adequada do Python.
+2. **Bibliotecas**: Instale as bibliotecas necessárias utilizando o seguinte comando:
+   
+   `pip install pyautogui pandas`
+
+3. **Sistema Operacional**: O código foi testado no Windows. Caso utilize outro sistema operacional ou navegador, ajustes podem ser necessários.
+
+4. **Arquivo CSV**: O arquivo `produtos.csv` deve conter as informações dos produtos a serem cadastrados. Este arquivo precisa estar no mesmo diretório que o script.
+
+## Como Executar
+
+1. **Configuração**: 
+   - Verifique se o arquivo `produtos.csv` está corretamente formatado e na pasta correta.
+   
+2. **Execução do Script**: 
+   - Execute o script Python (`pyauto_record.py`) em seu ambiente local.
+   
+3. **Acompanhamento**:
+   - O script realiza login no site fictício e preenche automaticamente os campos do formulário com as informações do CSV.
+
+4. **Resultados**:
+   - Ao final da execução, todos os produtos cadastrados podem ser visualizados no site fictício.
+
+## Observações Importantes
+
+- **Objetivo Educacional**: Este projeto foi criado para demonstrar como automatizar tarefas com Python. Não é recomendado para uso em sites reais sem permissão.
+- **Responsabilidade no Uso**: Garanta que o site ou aplicação que você está automatizando permita esse tipo de interação.
+- **Adaptação**: Você pode adaptar o código e personalizar parâmetros como os tempos de espera e as coordenadas dos campos, caso necessário.
+  
+## Contribua ou Compartilhe Feedback
+
+Sinta-se à vontade para explorar, modificar e contribuir para o código. Se encontrar algum erro ou tiver sugestões, compartilhe seu feedback para melhorar o projeto.
