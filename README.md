@@ -27,12 +27,12 @@ PyAuto Record is an automation tool developed in Python to register products on 
 
 3. **Operating System**: The code has been tested on Windows. If you're using another operating system or browser, adjustments may be necessary.
 
-4. **CSV File**: The `produtos.csv` file must contain product information to be registered. This file needs to be in the same directory as the script.
+4. **CSV File**: The produtos.csv file contains the necessary information about the products to be registered. Ensure it is located in the same directory as the Python script.
 
 ## How to Run
 
 1. **Setup**: 
-   - Ensure the `produtos.csv` file is correctly formatted and located in the correct folder.
+   - Make sure the produtos.csv file is in the script's folder.
    
 2. **Run the Script**: 
    - Execute the Python script (`pyauto_record.py`) in your local environment.
@@ -84,12 +84,12 @@ PyAuto Record é uma ferramenta de automação desenvolvida em Python para reali
 
 3. **Sistema Operacional**: O código foi testado no Windows. Caso utilize outro sistema operacional ou navegador, ajustes podem ser necessários.
 
-4. **Arquivo CSV**: O arquivo `produtos.csv` deve conter as informações dos produtos a serem cadastrados. Este arquivo precisa estar no mesmo diretório que o script.
+4. **Arquivo CSV**: O arquivo `produtos.csv` contém as informações dos produtos a serem cadastrados. Certifique-se de que ele esteja localizado no mesmo diretório que o script Python.
 
 ## Como Executar
 
 1. **Configuração**: 
-   - Verifique se o arquivo `produtos.csv` está corretamente formatado e na pasta correta.
+   - Verifique se o arquivo `produtos.csv` está na pasta do script.
    
 2. **Execução do Script**: 
    - Execute o script Python (`pyauto_record.py`) em seu ambiente local.
