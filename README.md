@@ -2,7 +2,7 @@
 
 # PyAuto Record
 
-PyAuto Record is an automation tool developed in Python to register products on a fictional website in an automated way. The website used is for educational and demonstration purposes only, allowing you to view all the products registered during the execution of the script.
+PyAuto Record is a Python automation tool that showcases the power of the PyAutoGUI library for automating repetitive tasks, such as product registration. Using a fictional website for educational and demonstrative purposes, the script performs automatic product registration, allowing users to see the final result and understand how automation can save time and effort.
 
 ## Features
 
@@ -20,7 +20,7 @@ PyAuto Record is an automation tool developed in Python to register products on 
 
 ## Execution Requirements
 
-1. **Python 3.8 or higher**: Ensure you are using the appropriate version of Python.
+1. **Python 3.8 or higher**: You can download the latest version at [https://www.python.org/downloads/](https://www.python.org/downloads/).
 2. **Libraries**: Install the required libraries with the following command:
    
    `pip install pyautogui pandas`
@@ -46,12 +46,15 @@ PyAuto Record is an automation tool developed in Python to register products on 
 ## Important Notes
 
 - **Educational Purpose**: This project was created to demonstrate how to automate tasks with Python. It is not recommended for use on real websites without permission.
-- **Responsibility in Usage**: Make sure that the website or application you're automating allows such interaction.
 - **Adaptation**: You can adapt the code and customize parameters such as wait times and field coordinates if necessary.
 
-## Contribute or Share Feedback
+## Contributions
 
-Feel free to explore, modify, and contribute to the code. If you find any bugs or have suggestions, share your feedback to improve the project.
+Contributions are welcome! Feel free to open issues or pull requests in this repository.
+
+## License
+
+This project is licensed under the MIT License.
 
 ---
 
@@ -59,7 +62,7 @@ Feel free to explore, modify, and contribute to the code. If you find any bugs o
 
 # PyAuto Record
 
-PyAuto Record é uma ferramenta de automação desenvolvida em Python para realizar o cadastro de produtos em um site fictício de forma automatizada. O site utilizado é apenas para fins educacionais e demonstração, permitindo visualizar ao final todos os produtos cadastrados durante a execução do script.
+O PyAuto Record é uma ferramenta de automação em Python que demonstra o poder da biblioteca PyAutoGUI para automatizar tarefas repetitivas, como o cadastro de produtos. Utilizando um site fictício para fins educacionais e demonstrativos, o script realiza o cadastro automático de produtos, permitindo visualizar o resultado final e entender como a automação pode economizar tempo e esforço.
 
 ## Funcionalidades
 
@@ -77,7 +80,7 @@ PyAuto Record é uma ferramenta de automação desenvolvida em Python para reali
 
 ## Requisitos para Execução
 
-1. **Python 3.8 ou superior**: Certifique-se de que está utilizando a versão adequada do Python.
+1. **Python 3.8 ou superior**: Você pode baixar a versão mais recente em [https://www.python.org/downloads/](https://www.python.org/downloads/).
 2. **Bibliotecas**: Instale as bibliotecas necessárias utilizando o seguinte comando:
    
    `pip install pyautogui pandas`
@@ -103,9 +106,12 @@ PyAuto Record é uma ferramenta de automação desenvolvida em Python para reali
 ## Observações Importantes
 
 - **Objetivo Educacional**: Este projeto foi criado para demonstrar como automatizar tarefas com Python. Não é recomendado para uso em sites reais sem permissão.
-- **Responsabilidade no Uso**: Garanta que o site ou aplicação que você está automatizando permita esse tipo de interação.
 - **Adaptação**: Você pode adaptar o código e personalizar parâmetros como os tempos de espera e as coordenadas dos campos, caso necessário.
   
-## Contribua ou Compartilhe Feedback
+## Contribuições
 
-Sinta-se à vontade para explorar, modificar e contribuir para o código. Se encontrar algum erro ou tiver sugestões, compartilhe seu feedback para melhorar o projeto.
+Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull requests neste repositório.
+
+## Licença
+
+Este projeto está licenciado sob a MIT License.
