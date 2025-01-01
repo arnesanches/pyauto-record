@@ -47,6 +47,8 @@ PyAuto Record is a Python automation tool that showcases the power of the PyAuto
 4. **Results**:
    - At the end of the execution, all the registered products can be viewed on the fictional website.
 
+To interrupt the automation, move the mouse cursor to the top left corner of the screen and wait for about five seconds.
+
 ## Important Notes
 
 - **Educational Purpose**: This project was created to demonstrate how to automate tasks with Python. It is not recommended for use on real websites without permission.
@@ -106,6 +108,8 @@ O PyAuto Record é uma ferramenta de automação em Python que demonstra o poder
 
 4. **Resultados**:
    - Ao final da execução, todos os produtos cadastrados podem ser visualizados no site fictício.
+
+Para interromper a automação, posicione o cursor do mouse no canto superior esquerdo da tela e aguarde cerca de cinco segundos.
 
 ## Observações Importantes
 
