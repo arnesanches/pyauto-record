@@ -62,6 +62,7 @@ Contributions are welcome! Feel free to open issues or pull requests in this rep
 
 This project is licensed under the MIT License.
 
+##
 ---
 
 #### Português
@@ -123,3 +124,6 @@ Contribuições são bem-vindas! Sinta-se à vontade para abrir issues ou pull r
 ## Licença
 
 Este projeto está licenciado sob a MIT License.
+
+##
+---
